@@ -1,0 +1,40 @@
+{
+  "name": "SimpaRPC",
+  "description": "Simpa headless wallet",
+  "author": "SimpaProject",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "wallet",
+    "headless",
+    "dagcoin",
+    "full node"
+  ],
+  "scripts": {
+    "pretest": "npm run eslint",
+    "eslint": "./node_modules/eslint/bin/eslint.js --cache ./src"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/SimpaProject/SimpaRPC.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimpaProject/SimpaRPC/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "core": "git+https://github.com/SimpaProject/SimpaCore.git",
+    "bitcore-lib": "^0.13.14",
+    "bitcore-mnemonic": "~1.0.0",
+    "json-rpc2": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.5.0"
+  }
+}
