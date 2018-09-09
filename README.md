@@ -1,6 +1,6 @@
-# Headless wallet for Dagcoin network
+# Headless wallet for Simpa network
 
-This is a headless alternative of the [GUI wallet](../../../dagcoin) for Dagcoin network.  It is designed for an always-online deployment on a server.
+This is a headless alternative of the [GUI wallet](../../../SimpaWallet) for Simpa network.  It is designed for an always-online deployment on a server.
 
 ## Install
 
